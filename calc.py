@@ -8,9 +8,11 @@ class Calculator:
         	return x + y
 	def sub(self,x,y):
 		return x-y
-	
+	def mul(self,xy):
+		return x*y	
 
 if __name__ == '__main__':
     cal = Calculator()
     print(cal.add(2, 3))
 	print(cal.sub(2,3))
+	print(cal.mul(2,3))
