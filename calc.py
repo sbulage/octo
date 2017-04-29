@@ -10,4 +10,5 @@ class Calculator:
 
 if __name__ == '__main__':
     cal = Calculator()
-    print(cal.add(2, 3))
+    print(cal.add(2,3))
+    print(cal.add(1,9))
